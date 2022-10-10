@@ -1,0 +1,33 @@
+{
+    "name": "22-0521-1501-Rq-Ef_Wukong-PDI-Straight-Turn",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "wuKong": "github:elecfreaks/pxt-wukong#v1.4.9",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
+        "OLED12864_I2C": "github:makecode-extensions/OLED12864_I2C#v1.5.0",
+        "SEN-MPU6050": "github:joy-it/sen-mpu6050#1.0.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v4.0.18",
+        "tag": "v4.0.18",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/b9d2eeff8116b75fa50f663091b0e3acd800b7bc",
+        "target": "5.0.12",
+        "pxt": "7.0.14",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
